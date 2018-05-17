@@ -1,6 +1,7 @@
 ## 对react-redux进行更深入的理解
 
-* ####connect()
+* #### connect()
+
 connect是react-redux提供的方法，用于生成容器组件。
 
 ```javascript
