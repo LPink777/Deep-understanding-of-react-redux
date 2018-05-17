@@ -1,8 +1,8 @@
-## 对react-redux进行更深入的理解
+## 理解react-redux中的connect, provider
 
-* #### connect()
+#### connect()
 
-connect是react-redux提供的方法，用于生成容器组件。
+[connect](https://github.com/LPink777/Deep-understanding-of-react-redux/blob/master/connect.js?1526569104077)是react-redux提供的方法，用于生成容器组件。
 
 ```javascript
     import { connect } from 'react-redux';
