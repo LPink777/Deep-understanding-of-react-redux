@@ -16,5 +16,6 @@ let createStore = (reducer) => {
     return {
         getState,
         subscribe,
+        dispatch,
     }
 }
