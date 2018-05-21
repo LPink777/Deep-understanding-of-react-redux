@@ -2,7 +2,7 @@
 
 ### createstore方法:
 
-createStore函数接受另一个函数作为参数，返回新的生成的Store对象。
+[createStore](https://github.com/LPink777/Deep-understanding-of-react-redux/blob/master/createStore.js?1526914025679)函数接受另一个函数作为参数，返回新的生成的Store对象。
 
 ```javascript
     import { createStore } from 'redux';
