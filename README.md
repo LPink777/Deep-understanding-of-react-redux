@@ -1,4 +1,13 @@
-## 理解react-redux中的connect, provider
+## 理解react-redux中的createstore, connect, provider, middleware的实现
+
+### createstore方法:
+
+createStore函数接受另一个函数作为参数，返回新的生成的Store对象。
+
+```javascript
+    import { createStore } from 'redux';
+    const store = createStore(reducer);
+```
 
 ### connect()方法:
 
