@@ -1,4 +1,4 @@
-## 理解react-redux中的createstore, connect, provider, middleware的实现
+## 深入理解react-redux中的createstore, connect, provider, middleware的实现
 
 ### createstore方法:
 
