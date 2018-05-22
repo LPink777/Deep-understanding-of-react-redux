@@ -40,4 +40,4 @@ Provider初始化时，获取到props中的store对象，然后利用getChildCon
     let store = applyMiddleware(middleware)(createStore)(reducer);
 ```
 
-middleware的实现主要是将原来store中的dispatch方法更新成自己想要的dispatch方法。
+middleware的实现主要是将原来store中的dispatch方法更新成自己想要的dispatch方法。具体实现方法可以参考[redux-thunk](https://github.com/LPink777/Deep-understanding-of-react-redux/blob/master/redux-thunk.js?1527003004511),[redux-promise](https://github.com/LPink777/Deep-understanding-of-react-redux/blob/master/redux-promise.js?1527003030680),[logger](https://github.com/LPink777/Deep-understanding-of-react-redux/blob/master/logger.js?1527003054983)。
