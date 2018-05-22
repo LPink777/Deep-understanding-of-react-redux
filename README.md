@@ -32,3 +32,12 @@ connect方法接受两个参数 mapStateToProps和mapDispatchToProps，分别将
     );
 ```
 Provider初始化时，获取到props中的store对象，然后利用getChildContext方法，将外部的store对象放入context对象中，使它的children可以直接访问到context对象中的store。
+
+### middleware的实现
+
+```javascript
+    import {createStore,applyMiddleware} from 'redux';
+    let store = applyMiddleware(middleware)(createStore)(reducer);
+```
+
+middleware的实现主要是将原来store中的dispatch方法更新成自己想要的dispatch方法。

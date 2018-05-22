@@ -19,3 +19,5 @@ let createStore = (reducer) => {
         dispatch,
     }
 }
+
+export { createStore }
